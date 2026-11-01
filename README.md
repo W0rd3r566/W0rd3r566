@@ -17,6 +17,12 @@
 
 <br />
 
+<div align="center">
+  <img src="./assets/project-engine.svg" alt="Animated W0rd3r project network" width="100%" />
+</div>
+
+<br />
+
 ## A bit about me
 
 - 🐍 **Main language** · Python
