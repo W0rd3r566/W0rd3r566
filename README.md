@@ -1,68 +1,58 @@
-<!--
-  W0rd3r · GitHub profile
-  Replace YOUR_BUYMEACOFFEE_USERNAME once your support page is ready.
--->
+<!-- W0rd3r · GitHub profile -->
 
 <div align="center">
-  <img src="./assets/profile-banner.svg" alt="W0rd3r profile banner" width="100%" />
-  <br />
+  <img src="./assets/profile-banner.svg" alt="W0rd3r · Python, open source and Linux" width="100%" />
 
-  <h1>Hey, I'm W0rd3r 👋</h1>
-  <p><strong>Python developer · Open-source enthusiast · Linux user</strong></p>
+  <h1>Hey, I'm W0rd3r</h1>
+  <p><strong>Python developer · Open-source builder · Linux enthusiast</strong></p>
+  <p>Small tools, thoughtful interfaces, and experiments that turn into real projects.</p>
 
-  <p>
-    Building useful tools, exploring new ideas, and learning by making.
-    <br />
-    Mostly Python, with a soft spot for clean interfaces and open source.
-  </p>
-
-  <p>
-    <a href="https://github.com/W0rd3r566?tab=repositories">
-      <img src="https://img.shields.io/badge/Projects-181A20?style=for-the-badge&logo=github&logoColor=white" alt="Projects" />
-    </a>
-    <a href="https://github.com/W0rd3r566">
-      <img src="https://img.shields.io/badge/Follow-181A20?style=for-the-badge&logo=github&logoColor=white" alt="Follow on GitHub" />
-    </a>
-  </p>
+  <a href="https://github.com/W0rd3r566?tab=repositories">
+    <img src="https://img.shields.io/badge/Explore%20my%20projects-20242B?style=for-the-badge&logo=github&logoColor=C7F9E9" alt="Explore my projects" />
+  </a>
+  <a href="https://github.com/W0rd3r566?tab=followers">
+    <img src="https://img.shields.io/badge/Follow-20242B?style=for-the-badge&logo=github&logoColor=D8C7FF" alt="Follow" />
+  </a>
 </div>
 
----
+<br />
 
-### About
+## A bit about me
 
-- 🐍 **Main language:** Python
-- 🐧 **Daily environment:** Linux · CachyOS
-- 🛠️ **I enjoy:** developer tools, automation, desktop apps, and bots
-- 🌱 **Currently:** improving my Python skills and building open-source projects
-- 🎨 **Design taste:** minimal interfaces, graphite tones, and a little Miku-inspired color
+- 🐍 **Main language** · Python
+- 🐧 **Daily driver** · Linux / CachyOS
+- 🧩 **Interested in** · developer tools, automation, desktop apps, and Telegram
+- 🌱 **Learning by building** · exploring software engineering one project at a time
+- 🎨 **Design preference** · quiet graphite, clean layouts, and subtle Miku-inspired colors
 
-### Selected projects
+## Featured projects
 
-| Project | What it is |
-| --- | --- |
-| [LibreGram Desktop](https://github.com/W0rd3r566/libregram-desktop) | An experimental Telegram desktop client |
-| [Forge System Center](https://github.com/W0rd3r566/Forge-System-Center) | A personal system tools project |
-| [W0rd3r Skillbook](https://github.com/W0rd3r566/w0rd3r-skillbook) | A collection of practical skills for AI coding agents |
-| [mdnest](https://github.com/W0rd3r566/mdnest) | A Markdown-focused editor project |
+A few things I'm building and experimenting with:
 
-### Tools I use
+| Project | Description |
+|:--|:--|
+| [**LibreGram Desktop**](https://github.com/W0rd3r566/libregram-desktop) | An experimental Telegram desktop client. |
+| [**Forge System Center**](https://github.com/W0rd3r566/Forge-System-Center) | A personal toolkit for managing desktop systems. |
+| [**W0rd3r Skillbook**](https://github.com/W0rd3r566/w0rd3r-skillbook) | Practical skills and workflows for AI coding agents. |
+| [**mdnest**](https://github.com/W0rd3r566/mdnest) | A Markdown-focused writing and editing project. |
 
-<p>
-  <img src="https://img.shields.io/badge/Python-181A20?style=flat-square&logo=python&logoColor=8FC7FF" alt="Python" />
-  <img src="https://img.shields.io/badge/Git-181A20?style=flat-square&logo=git&logoColor=F08A5D" alt="Git" />
-  <img src="https://img.shields.io/badge/Linux-181A20?style=flat-square&logo=linux&logoColor=F4D35E" alt="Linux" />
-  <img src="https://img.shields.io/badge/GitHub-181A20?style=flat-square&logo=github&logoColor=E6EDF3" alt="GitHub" />
-</p>
+## Toolbox
 
-### A little more
+<div align="center">
+  <img src="https://img.shields.io/badge/Python-20242B?style=for-the-badge&logo=python&logoColor=9CCBFF" alt="Python" />
+  <img src="https://img.shields.io/badge/Git-20242B?style=for-the-badge&logo=git&logoColor=F2A17A" alt="Git" />
+  <img src="https://img.shields.io/badge/Linux-20242B?style=for-the-badge&logo=linux&logoColor=E8D58A" alt="Linux" />
+  <img src="https://img.shields.io/badge/VS%20Code-20242B?style=for-the-badge&logo=vscodium&logoColor=9CCBFF" alt="VSCodium" />
+</div>
 
-I like building things that solve real problems, polishing the details, and sharing what I learn.
-This profile is a small map of what I'm working on. More experiments are on the way.
+## What I value
+
+**Useful over noisy.** I like software that solves a clear problem, interfaces that stay out of the way, and open-source projects that are easy to understand and improve.
 
 ---
 
 <div align="center">
-  <sub>Made with Python, curiosity, and a hint of teal.</sub>
+  <sub>Built with Python, curiosity, and a little teal.</sub>
   <br />
-  <sub>© W0rd3r</sub>
+  <sub>Thanks for stopping by ✦</sub>
 </div>
