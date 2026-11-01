@@ -1,0 +1,139 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="500" viewBox="0 0 1200 500" role="img" aria-labelledby="title desc">
+  <title id="title">W0rd3r Project Engine</title>
+  <desc id="desc">An animated network connecting W0rd3r with four open-source projects: LibreGram, Forge System Center, W0rd3r Skillbook and mdnest.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#171B22"/>
+      <stop offset="1" stop-color="#202832"/>
+    </linearGradient>
+    <radialGradient id="ambient">
+      <stop offset="0" stop-color="#63CDBB" stop-opacity=".13"/>
+      <stop offset="1" stop-color="#63CDBB" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" width="36" height="36" patternUnits="userSpaceOnUse">
+      <path d="M36 0H0V36" fill="none" stroke="#C5DDE1" stroke-opacity=".055"/>
+    </pattern>
+    <filter id="softGlow" x="-80%" y="-80%" width="260%" height="260%">
+      <feGaussianBlur stdDeviation="6"/>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="500" rx="22" fill="url(#bg)"/>
+  <rect width="1200" height="500" rx="22" fill="url(#grid)"/>
+  <ellipse cx="600" cy="250" rx="330" ry="230" fill="url(#ambient)"/>
+  <ellipse cx="1040" cy="270" rx="250" ry="205" fill="#A99BFA" opacity=".035"/>
+
+  <g font-family="Inter, ui-sans-serif, system-ui, sans-serif">
+    <text x="76" y="39" fill="#9DB2BC" font-size="11" font-weight="700" letter-spacing="2">PROJECT NETWORK</text>
+    <text x="1124" y="39" text-anchor="end" fill="#91A3AF" font-size="10" font-weight="700" letter-spacing="1.4">W0RD3R  /  OPEN SOURCE</text>
+    <path d="M76 57H1124" stroke="#78949D" stroke-opacity=".28"/>
+
+    <!-- Connections -->
+    <g fill="none" stroke-width="1.7">
+      <path d="M472 220 C430 198 432 151 390 138" stroke="#A5F3E4" stroke-opacity=".4">
+        <animate attributeName="stroke-opacity" values=".22;.8;.22" dur="4s" repeatCount="indefinite"/>
+      </path>
+      <path d="M728 220 C770 198 768 151 810 138" stroke="#C6B7FF" stroke-opacity=".4">
+        <animate attributeName="stroke-opacity" values=".22;.8;.22" dur="4s" begin="1s" repeatCount="indefinite"/>
+      </path>
+      <path d="M472 280 C430 302 432 357 390 370" stroke="#C6B7FF" stroke-opacity=".4">
+        <animate attributeName="stroke-opacity" values=".22;.8;.22" dur="4s" begin="2s" repeatCount="indefinite"/>
+      </path>
+      <path d="M728 280 C770 302 768 357 810 370" stroke="#A5F3E4" stroke-opacity=".4">
+        <animate attributeName="stroke-opacity" values=".22;.8;.22" dur="4s" begin="3s" repeatCount="indefinite"/>
+      </path>
+    </g>
+
+    <!-- Traveling signals -->
+    <g>
+      <circle r="4" fill="#EAF2F5">
+        <animateMotion dur="4s" repeatCount="indefinite" path="M472 220 C430 198 432 151 390 138"/>
+      </circle>
+      <circle r="4" fill="#EAF2F5">
+        <animateMotion dur="4s" begin="1s" repeatCount="indefinite" path="M728 220 C770 198 768 151 810 138"/>
+      </circle>
+      <circle r="4" fill="#EAF2F5">
+        <animateMotion dur="4s" begin="2s" repeatCount="indefinite" path="M472 280 C430 302 432 357 390 370"/>
+      </circle>
+      <circle r="4" fill="#EAF2F5">
+        <animateMotion dur="4s" begin="3s" repeatCount="indefinite" path="M728 280 C770 302 768 357 810 370"/>
+      </circle>
+    </g>
+
+    <!-- LibreGram -->
+    <g>
+      <rect x="76" y="92" width="314" height="92" rx="14" fill="#1D242D" stroke="#A5F3E4" stroke-opacity=".55">
+        <animate attributeName="stroke-opacity" values=".35;.95;.35" dur="4s" repeatCount="indefinite"/>
+      </rect>
+      <rect x="93" y="110" width="44" height="44" rx="11" fill="#253039" stroke="#A5F3E4" stroke-opacity=".65"/>
+      <circle cx="115" cy="132" r="7" fill="none" stroke="#A5F3E4" stroke-width="1.5"/>
+      <circle cx="115" cy="132" r="2.2" fill="#A5F3E4"/>
+      <text x="153" y="128" fill="#E8F0F4" font-size="16" font-weight="700">LibreGram</text>
+      <text x="153" y="156" fill="#97A6B3" font-size="10">Telegram desktop client</text>
+      <circle cx="372" cy="118" r="4" fill="#A5F3E4">
+        <animate attributeName="opacity" values=".35;1;.35" dur="4s" repeatCount="indefinite"/>
+      </circle>
+    </g>
+
+    <!-- Forge System Center -->
+    <g>
+      <rect x="810" y="92" width="314" height="92" rx="14" fill="#1D242D" stroke="#C6B7FF" stroke-opacity=".55">
+        <animate attributeName="stroke-opacity" values=".35;.95;.35" dur="4s" begin="1s" repeatCount="indefinite"/>
+      </rect>
+      <rect x="827" y="110" width="44" height="44" rx="11" fill="#253039" stroke="#C6B7FF" stroke-opacity=".65"/>
+      <circle cx="849" cy="132" r="7" fill="none" stroke="#C6B7FF" stroke-width="1.5"/>
+      <circle cx="849" cy="132" r="2.2" fill="#C6B7FF"/>
+      <text x="887" y="128" fill="#E8F0F4" font-size="16" font-weight="700">Forge System Center</text>
+      <text x="887" y="156" fill="#97A6B3" font-size="10">Desktop system toolkit</text>
+      <circle cx="1106" cy="118" r="4" fill="#C6B7FF">
+        <animate attributeName="opacity" values=".35;1;.35" dur="4s" begin="1s" repeatCount="indefinite"/>
+      </circle>
+    </g>
+
+    <!-- W0rd3r Skillbook -->
+    <g>
+      <rect x="76" y="324" width="314" height="92" rx="14" fill="#1D242D" stroke="#C6B7FF" stroke-opacity=".55">
+        <animate attributeName="stroke-opacity" values=".35;.95;.35" dur="4s" begin="2s" repeatCount="indefinite"/>
+      </rect>
+      <rect x="93" y="342" width="44" height="44" rx="11" fill="#253039" stroke="#C6B7FF" stroke-opacity=".65"/>
+      <circle cx="115" cy="364" r="7" fill="none" stroke="#C6B7FF" stroke-width="1.5"/>
+      <circle cx="115" cy="364" r="2.2" fill="#C6B7FF"/>
+      <text x="153" y="360" fill="#E8F0F4" font-size="16" font-weight="700">W0rd3r Skillbook</text>
+      <text x="153" y="388" fill="#97A6B3" font-size="10">Skills for coding agents</text>
+      <circle cx="372" cy="350" r="4" fill="#C6B7FF">
+        <animate attributeName="opacity" values=".35;1;.35" dur="4s" begin="2s" repeatCount="indefinite"/>
+      </circle>
+    </g>
+
+    <!-- mdnest -->
+    <g>
+      <rect x="810" y="324" width="314" height="92" rx="14" fill="#1D242D" stroke="#A5F3E4" stroke-opacity=".55">
+        <animate attributeName="stroke-opacity" values=".35;.95;.35" dur="4s" begin="3s" repeatCount="indefinite"/>
+      </rect>
+      <rect x="827" y="342" width="44" height="44" rx="11" fill="#253039" stroke="#A5F3E4" stroke-opacity=".65"/>
+      <circle cx="849" cy="364" r="7" fill="none" stroke="#A5F3E4" stroke-width="1.5"/>
+      <circle cx="849" cy="364" r="2.2" fill="#A5F3E4"/>
+      <text x="887" y="360" fill="#E8F0F4" font-size="16" font-weight="700">mdnest</text>
+      <text x="887" y="388" fill="#97A6B3" font-size="10">Markdown editor</text>
+      <circle cx="1106" cy="350" r="4" fill="#A5F3E4">
+        <animate attributeName="opacity" values=".35;1;.35" dur="4s" begin="3s" repeatCount="indefinite"/>
+      </circle>
+    </g>
+
+    <!-- Central hub -->
+    <g>
+      <rect x="472" y="190" width="256" height="120" rx="21" fill="#192028" stroke="#73D2C2" stroke-width="1.8" stroke-opacity=".82"/>
+      <rect x="495" y="211" width="46" height="46" rx="12" fill="#27383C" stroke="#A5F3E4" stroke-opacity=".75"/>
+      <text x="518" y="243" text-anchor="middle" fill="#A5F3E4" font-size="19" font-weight="700">W</text>
+      <text x="559" y="235" fill="#E8F0F4" font-size="26" font-weight="700">W0rd3r</text>
+      <text x="560" y="258" fill="#A5F3E4" font-size="9" font-weight="700" letter-spacing="1.5">PROJECT ENGINE</text>
+      <circle cx="563.5" cy="281.5" r="3.5" fill="#A5F3E4">
+        <animate attributeName="opacity" values=".25;1;.25" dur="2s" repeatCount="indefinite"/>
+      </circle>
+      <text x="576" y="285" fill="#8FA3AE" font-size="8" font-weight="700" letter-spacing=".5">FOUR PROJECTS · ONE WORKSHOP</text>
+    </g>
+
+    <text x="76" y="464" fill="#758B97" font-size="9" font-weight="700" letter-spacing="1.2">BUILD  /  EXPERIMENT  /  SHARE</text>
+    <text x="1124" y="464" text-anchor="end" fill="#758B97" font-size="9" font-weight="700" letter-spacing="1.1">PYTHON  •  OPEN SOURCE  •  LINUX</text>
+  </g>
+</svg>
